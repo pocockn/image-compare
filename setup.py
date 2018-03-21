@@ -7,12 +7,14 @@ with open(path.join(path.dirname(__file__), 'README.md')) as f:
 
 setup(
     name='image-compare',
-    version='0.0.1',
+    version='0.0.3',
     description='Simple image comparison script',
     long_description=long_description,
     url='https://github.com/thaffenden/image-compare',
     author='Tristan Haffenden',
     author_email="tristanehaffenden@gmail.com",
+    packages=['image_compare'],
+    install_requires=['opencv-python', 'pillow', 'scikit-image'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',

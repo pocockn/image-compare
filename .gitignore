@@ -17,3 +17,6 @@ __pycache__
 # Project
 images/
 
+# Package
+dist/
+image_compare.egg-info/
